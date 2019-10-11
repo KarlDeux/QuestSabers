@@ -1,0 +1,88 @@
+{
+  "coverImageFilename": "Cover.png",
+  "icon": "Cover.png",
+  "components": [
+    {
+      "Type": "AssetsMod",
+      "InstallAction": {
+        "PreloadFiles": [
+          "sharedassets14.assets"
+        ],
+        "Actions": [
+          {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "SaberBlade.dat",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberBlade"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 1
+          },
+          {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "SaberGlowingEdges.dat",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberGlowingEdges"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 2
+          },
+          {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "SaberHandle.dat",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberHandle"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 3
+          }
+        ]
+      },
+      "UninstallAction": {
+        "PreloadFiles": [
+          "sharedassets14.assets"
+        ],
+        "Actions": [
+          {
+            "Type": "RestoreAsset",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberBlade"
+            },
+            "StepNumber": 1
+          },
+          {
+            "Type": "RestoreAsset",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberGlowingEdges"
+            },
+            "StepNumber": 2
+          },
+          {
+            "Type": "RestoreAsset",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberHandle"
+            },
+            "StepNumber": 3
+          }
+        ]
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "links": {},
+  "description": [
+    "SSe-3 Polaris Duel hilt by LamaDiLuce design"
+  ],
+  "gameVersion": "1.4.2",
+  "platform": "Quest",
+  "id": "SSe3V1",
+  "name": "SSe-3 saber",
+  "author": "Karldeux",
+  "category": "Saber"
+}
