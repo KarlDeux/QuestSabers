@@ -6,7 +6,7 @@
       "Type": "AssetsMod",
       "InstallAction": {
         "PreloadFiles": [
-          "sharedassets14.assets"
+          "{{Saber}}"
         ],
         "Actions": [
           {
@@ -43,7 +43,7 @@
       },
       "UninstallAction": {
         "PreloadFiles": [
-          "sharedassets14.assets"
+          "{{Saber}}"
         ],
         "Actions": [
           {
@@ -79,7 +79,7 @@
   "description": [
     "SSe-3 Polaris Duel hilt by LamaDiLuce design"
   ],
-  "gameVersion": "1.4.2",
+  "gameVersion": "1.6.0",
   "platform": "Quest",
   "id": "SSe3V1",
   "name": "SSe-3 saber",
